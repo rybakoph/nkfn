@@ -1,0 +1,36 @@
+sidebar {
+display:block;
+position:fixed;
+width: 300px;
+left: 20px;
+padding: 30px;
+box-sizing: border-box;
+opacity: .1;
+transition: opacity .5s ease;
+}
+
+sidebar:hover {
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+sidebar ul {
+  width: 100%;
+  }
+
+sidebar li {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+sidebar a {
+  text-decoration: none;
+}
+
+sidebar ul > ul li {
+  color: #777;
+}
+
+sidebar > ul > li:first-child
